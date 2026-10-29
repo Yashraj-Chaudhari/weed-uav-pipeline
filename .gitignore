@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Model checkpoints
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+
+# Generated predictions and outputs
+output/
+
+# Local editor settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dataset images
+/data/
